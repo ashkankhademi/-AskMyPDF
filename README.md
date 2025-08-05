@@ -28,3 +28,12 @@ AskMyPDF is a lightweight web app that lets you **upload any PDF** and **ask nat
    ```bash
    git clone https://github.com/ashkankhademi/AskMyPDF.git
    cd AskMyPDF
+
+2. **Install dependencies**
+   ```bash
+   pip install streamlit pymupdf sentence-transformers scikit-learn
+
+3. **Run the app**
+   ```bash
+   streamlit run app.py
+
